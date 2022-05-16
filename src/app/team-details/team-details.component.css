@@ -1,0 +1,38 @@
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+
+h3{
+    margin-left: 30px;
+    margin-top: 40px;
+    display: inline; 
+}
+
+li{
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+.members{
+    margin-top: 20px;
+    float: left; 
+    
+}
+
+.image{
+    float: right;
+    margin-right: 200px;
+    border: 1px solid blue;
+    margin-top: 10px;
+    transition: 0.2s ease-out;
+}
+.image:hover{
+    transform: translate(5px, -10px);
+}
+

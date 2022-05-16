@@ -1,0 +1,28 @@
+.page{
+    background: url("https://cdn.wallpapersafari.com/21/60/Qdhbm1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+    margin: 0;
+}
+html{
+    height: 100%;
+    margin: 0;
+}
+
+
+.card{
+    margin-top: 70px;
+    margin-left: 110px;
+    margin-right: 110px;
+    border: 1px solid black;
+    transition: 0.2s ease-out;
+}
+.card:hover{
+    transform: translate(5px, -10px);
+}
+.card-body{
+    border: 1px solid black;
+}
+

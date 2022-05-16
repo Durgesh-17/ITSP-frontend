@@ -1,0 +1,23 @@
+
+<div class="detailspage">
+    <div *ngIf="team">
+        <h1>{{team.name}}</h1>
+        <h3>Members</h3>
+        <div class="members">
+            <ul>
+                <li>{{team.members[0]}}</li>
+                <li>{{team.members[1]}}</li>
+                <li>{{team.members[2]}}</li>
+                <li>{{team.members[3]}}</li>
+                <li>{{team.members[4]}}</li>
+                <li>{{team.members[5]}}</li>
+            </ul>
+        </div>
+        <div class="image">
+            <img src="{{team.imagepath}}" >
+        </div>
+        
+    </div>
+</div>
+
+
